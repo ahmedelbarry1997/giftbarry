@@ -1,4 +1,3 @@
-<script>
 document.addEventListener('DOMContentLoaded', function() {
   const icon = document.getElementById('icon');
   const modalBg = document.getElementById('modal-bg');
@@ -19,9 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
     
-  </script>
 
-<script>
 // Function to initialize the counter from localStorage on page load
 function initializeCounter() {
   let counter = localStorage.getItem('counter');
@@ -114,4 +111,3 @@ checkAndIncrement();
 // Call function to reset the counter after 30 days
 resetCounterAfter30Days();
 
-</script>
